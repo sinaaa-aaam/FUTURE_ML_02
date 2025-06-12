@@ -25,14 +25,14 @@ To develop a machine learning model that predicts customer churn and provide act
 ## 🧠 Key Steps
 
 ### 1. **Data Exploration & Cleaning**
-- Loaded and explored the dataset (`Churn_Model.csv`)
+- Loaded and explored the dataset (`Churn_Modelling.csv`)
 - Checked for missing values and handled categorical variables
-- Dropped irrelevant features (`Surname`, `CustomerID`) for better performance
+- Dropped irrelevant features (like `Surname`, `CustomerID`) for better performance
 
 ### 2. **Feature Engineering**
 - One-hot encoded categorical columns
-- Identified and selected key features:
-  - `Contract`, `PaymentMethod`, `InternetService`, `Tenure`, etc.
+- Identified and selected key features such as:
+  - `EstimatedSalary`, `PaymentMethod`, `Balance`, `Tenure`, etc.
 
 ### 3. **Handling Imbalanced Data**
 - Used **SMOTE** to oversample the minority class (churned customers)
