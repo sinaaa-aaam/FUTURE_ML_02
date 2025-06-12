@@ -57,7 +57,7 @@ Models were evaluated using:
 
 - **Best Model**: XGBoost (fine-tuned with SMOTE)
 - **Accuracy**: ~87%
-- Business-ready PDF report generated with key churn drivers and recommendations
+- Business-ready PDF report generated with key churn drivers
 
 ---
 ---
